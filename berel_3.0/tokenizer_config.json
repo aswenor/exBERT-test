@@ -6,7 +6,7 @@
   "model_max_length": 512,
   "pad_token": "[PAD]",
   "sep_token": "[SEP]",
-  "strip_accents": null,
+  "strip_accents": false,
   "tokenize_chinese_chars": true,
   "tokenizer_class": "BertTokenizer",
   "unk_token": "[UNK]"
