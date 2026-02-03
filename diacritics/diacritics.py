@@ -1,64 +1,70 @@
 from typing import Sequence
 
-
 NIQQUD_MARKS: Sequence[str] = (
-    "\u05b4",   # hiriq
-    "\u05b5",   # tzere
-    "\u05b6",   # segol
-    "\u05b7",   # patach
-    "\u05b8",   # kamatz
-    "\u05c7",   # kamatz katan
-    "\u05c2",   # sin dot
-    "\u05c1",   # shin dot
-    "\u05b9",   # holam haser/male
-    "\u05bc",   # dagesh/mappiq/shuruk
-    "\u05bb",   # kubutz
-    "\u05b0",   # shva
-    "\u05b1",   # reduced segol
-    "\u05b2",   # reduced patach
-    "\u05b3",   # reduced kamatz
+    "\u05b4",   # POINT HIRIQ 
+    "\u05b5",   # POINT TSERE 
+    "\u05b6",   # POINT SEGOL 
+    "\u05b7",   # POINT PATAH 
+    "\u05b8",   # POINT QAMATS 
+    "\u05c7",   # POINT QAMATS QATAN 
+    "\u05c2",   # POINT SIN DOT 
+    "\u05c1",   # POINT SHIN DOT 
+    "\u05b9",   # POINT HOLAM 
+    "\u05ba",   # POINT HOLAM HASER FOR VAV 
+    "\u05bc",   # POINT DAGESH OR MAPIQ (= shuruq) 
+    "\u05bb",   # POINT QUBUTS 
+    "\u05b0",   # POINT SHEVA 
+    "\u05b1",   # POINT HATAF SEGOL 
+    "\u05b2",   # POINT HATAF PATAH 
+    "\u05b3",   # POINT HATAF QAMATS 
+    "\u05bf",   # POINT RAFE 
 )
 
 CANTILLATION_MARKS: Sequence[str] = (
-    "\u05c3",   # sof passuk
-    "\u0591",   # etnachta
-    "\u0592",   # segol
-    "\u0593",   # shalshelet
-    "\u0594",   # zakef katan
-    "\u0595",   # zakef gadol
-    "\u0596",   # tifcha
-    "\u0597",   # revia
-    "\u05ae",   # zevia
-    "\u0599",   # pashta, shene pashtin
-    "\u05a8",   # shene pashtin
-    "\u059a",   # yetiv
-    "\u059b",   # tevir
-    "\u051a",   # pazer
-    "\u059f",   # qarne farah
-    "\u05a0",   # telisha gedola
-    "\u05f3",   # punctuation geresh
-    "\u059c",   # accent geresh
-    "\u059d",   # accent geresh muqdam (printed more to the right)
-    "\u05f4",   # punctuation gershayim
-    "\u059e",   # accent gershayim
-    "\u05c0",   # paseq
-    "\u05a5",   # mercha
-    "\u05a3",   # munach
-    "\u05a4",   # mahpach
-    "\u05a7",   # darga
-    "\u05a8",   # kadma
-    "\u05a9",   # telisha ketana
-    "\u05a6",   # mercha kefula
-    "\u05aa",   # yerach ben yomo
-    "\u05a2",   # atnach hafukh
-    "\u05ab",   # ole
-    "\u05ac",   # illuy
-    "\u05ad",   # dechi
-    "\u0598",   # tsinnorit
+    "\u05c3",   # PUNCTUATION SOF PASUQ 
+    "\u0591",   # ACCENT ETNAHTA (= atnah) 
+    "\u0592",   # ACCENT SEGOL (= segolta) 
+    "\u0593",   # ACCENT SHALSHELET 
+    "\u0594",   # ACCENT ZAQEF QATAN 
+    "\u0595",   # ACCENT ZAQEF GADOL 
+    "\u0596",   # ACCENT TIPEHA (= tarha, me'ayla) 
+    "\u0597",   # ACCENT REVIA 
+    "\u05ae",   # ACCENT ZINOR (= tsinor, zarqa) 
+    "\u0599",   # ACCENT PASHTA 
+    "\u059a",   # ACCENT YETIV 
+    "\u059b",   # ACCENT TEVIR 
+    "\u05a1",   # ACCENT PAZER (= pazer qatan) 
+    "\u059f",   # ACCENT QARNEY PARA (= pazer gadol) 
+    "\u05a0",   # ACCENT TELISHA GEDOLA 
+    "\u05f3",   # PUNCTUATION GERESH 
+    "\u059c",   # ACCENT GERESH (= teres) 
+    "\u059d",   # ACCENT GERESH MUQDAM 
+    "\u05f4",   # PUNCTUATION GERSHAYIM 
+    "\u059e",   # ACCENT GERSHAYIM 
+    "\u05c0",   # PUNCTUATION PASEQ (= legarmeh) 
+    "\u05a5",   # ACCENT MERKHA (= yored) 
+    "\u05a3",   # ACCENT MUNAH 
+    "\u05a4",   # ACCENT MAHAPAKH 
+    "\u05a7",   # ACCENT DARGA 
+    "\u05a8",   # ACCENT QADMA (= azla) 
+    "\u05a9",   # ACCENT TELISHA QETANA 
+    "\u05a6",   # ACCENT MERKHA KEFULA 
+    "\u05aa",   # ACCENT YERAH BEN YOMO 
+    "\u05a2",   # ACCENT ATNAH HAFUKH 
+    "\u05ab",   # ACCENT OLE 
+    "\u05ac",   # ACCENT ILUY 
+    "\u05ad",   # ACCENT DEHI 
+    "\u0598",   # ACCENT ZARQA (= tsinorit, zinorit) 
+    "\u05be",   # PUNCTUATION MAQAF 
+    "\u05c6",   # PUNCTUATION NUN HAFUKHA 
+    "\u05af",   # MARK MASORA CIRCLE 
+    "\u05bd",   # POINT METEG (= siluq) 
 )
 
 OTHER_DIACRITICS: Sequence[str] = (
-    "\u05bd",   # meteg
+    "\u05c4",   # MARK UPPER DOT (punctum etraordinarium) 
+    "\u05c5",   # MARK LOWER DOT (punctum etraordinarium) 
+    "\ufb1e",   # JUDEO-SPANISH VARIKA 
 )
 
 ALL_DIACRITICS: list[str] = list(NIQQUD_MARKS) + list(CANTILLATION_MARKS) + list(OTHER_DIACRITICS)
