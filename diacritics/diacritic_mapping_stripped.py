@@ -175,3 +175,4 @@ with open("diacritic_stats.txt", "w", encoding="utf-8") as f:
 
     print("\nCantillation frequency:", file=f)
     print(cantillation_only_freq, file=f)
+
